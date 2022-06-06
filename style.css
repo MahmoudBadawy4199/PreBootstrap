@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root{
+      font-size: 16px;
+  }
+  .container {
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 15px;
+      
+  }
+  .d-flex{
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 40px;
+  }
+
+  img {
+    width:100% ;
+}
+
+
+  /* IF screen from 0px to 768px */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    .card{
+        
+    }
+  
+    /* Latest Posts */
+    .card__category{
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: gray;
+        padding: 20px 0;
+    }
+    .card__title{
+        font-family: 'Tenor Sans', sans-serif;
+        font-weight: 400;
+        color: black;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .card__author{
+        font-family: 'Libre Franklin', sans-serif;
+        color:black;
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 15px 0;
+    }
+  
+  
+  /* Else IF screen from 768px to up -------  */
+  @media only screen and (min-width: 768px)  {
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  }
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  /* @media only screen and (max-width: 600px) {...} */
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* @media only screen and (min-width: 600px) {...} */
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  /* @media only screen and (min-width: 768px) {...} */
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  /* @media only screen and (min-width: 992px) {...} */
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  /* @media only screen and (min-width: 1200px) {...} */
+  
